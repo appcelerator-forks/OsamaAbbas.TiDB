@@ -5,10 +5,10 @@
 
 * Copy ```./TiDB.js``` and ```./lib``` to your project Resources.
 * Require it:
-```js
+```javascript
 var TiDB = require('path/to/TiDB');```
 * Creating/loading a database:
-```js
+```javascript
 var myDB = new TiDB({
 	filename : Ti.Filesystem.externalStorageDirectory + '/myDB.db',
 	autoload : true
