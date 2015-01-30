@@ -1,0 +1,11 @@
+# TiDB
+ Embedded datastore for Titanium Appcelerator. Based on [nedb].
+
+## How to use?
+
+* Copy ./TiDB.js and ./lib to Resources.
+* ```var TiDB = require('path/to/TiDB');```
+* ```var myDB = new TiDB({
+	filename : Ti.Filesystem.externalStorageDirectory + '/myDB.db',
+	autoload : true
+});```
